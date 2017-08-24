@@ -3,14 +3,19 @@
 	padding: 0px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 
 	font-family: 'Georgia', Times, Times, serif;
 
 }
 
-h2, h3 {
-	color: #4aaaa5;
+h2, h3, h4 {
+	color: #36375C;
+}
+
+h3 {
+	margin: 8px 8px 15px 6px;
+	font-size: 140%;
 }
 
 p, ul, form {
@@ -45,7 +50,7 @@ footer {
 	clear: both;
 	width: 100%;
 	margin: auto;
-	border-top: 5px solid #4aaaa5;;
+	border-top: 5px solid #36375C;;
 
 
 }
@@ -75,41 +80,44 @@ li a {
 
 
 li a:hover {
-    background-color: #D2D1D1;
+    color: #D2D1D1;
 }
 
 
 header h1 {
 	float: left;
 	clear: both;
-	margin-left: 150px;
-	margin-top: 14px;
-	background-color: #4aaaa5;
-	padding: 25px 25px 25px 25px;
+	margin-left: 100px;
+	margin-top: 0px;
+	background-color: #36375C;
+	padding: 32px 30px 32px 30px;
 	color: white;
 	display: inline;
+	/*height: 50px;*/
 }
 
 form input {
 	  width: 85%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 15px;
     display: inline-block;
     border: 1px solid #ccc;
 }
 
 button[type=button] {
-	background-color: #4aaaa5;
+	background-color: #36375C;
     border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 textarea {
 	width: 92.5%;
+	margin: 15px;
 }
 
 form {
@@ -122,41 +130,41 @@ input[type=text]:focus {
 }
 
 #contact {
+
 	background-color: white;
-	width: 40%;
+	width: 650px;
 	float: left;
 	clear: both;
-	margin-left: 150px; 
+	margin-left: 100px; 
 	margin-top: 40px;
 	padding: 10px 20px 10px 20px;
-	
 
 }
 
-
-
-
 .container {
+
 	background-color: #eee;
+
 }
 
 #bio-paragraph {
+
 	clear: both;
 	float: left;
-	width: 40%;
-	margin-left: 150px;
+	width: 650px;
+	margin-left: 100px;
 	background-color: #fff;
 	padding: 10px 20px 10px 20px;
-	
-
 
 }
 
 #bio-paragraph p, #bio-image {
+
 	padding-top: 15px;
 }
 
 #bio-image {
+
 	float: left;
 	margin-left: 00px;
 	margin-right: 10px;
@@ -165,33 +173,98 @@ input[type=text]:focus {
 #socialMedia {
 	
 	float: left;
-	margin-left: 60px;
+	margin-left: 40px;
 	background-color: #fff;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
-	width: 18%;
-	
-	
+	width: 270px;
 
 }
 
 #portfolioBox {
+
 	background-color: white;
 	float: left;
 	clear: both;
-	width: 40%;
-	margin-left: 150px;
+	width: 650px;
+	margin-left: 100px;
 	padding: 10px 20px 10px 20px;
 	
 }
 
+#portfolioBox h4 {
+
+	background-color: #eee;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+	width: 225px;
+	height: 45px;
+	float: left;
+	clear: both;
+	z-index: 1;
+	position: relative;
+	bottom: 70px;
+}
+
 #portfolioBox a {
+
 	margin: 0 auto;
 	padding: 10px;
 }
 
+
+
 #bio-paragraph, #socialMedia, #portfolioBox, #contact {
+
 	margin-top: 60px;
 	margin-bottom: 100px;
 
 }
+
+.portfolioImages {
+	background-image: url("http://via.placeholder.com/225x200");
+	float: left;
+	margin: 45px;
+	width: 225px;
+	height: 200px;
+
+	
+}
+
+#image1 {
+	-webkit-animation-delay: .2s; /* Safari 4.0 - 8.0 */
+    animation-delay: .2s;
+}
+
+#image2 {
+	-webkit-animation-delay: .4s; /* Safari 4.0 - 8.0 */
+    animation-delay: .4s;
+}
+
+#image3 {
+	-webkit-animation-delay: .6s; /* Safari 4.0 - 8.0 */
+    animation-delay: .6s;
+}
+
+#image4{
+	-webkit-animation-delay: .8s; /* Safari 4.0 - 8.0 */
+    animation-delay: .8s;
+}
+
+#image5{
+	-webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+
+}
+.portfolioImages h4 {
+	position: relative;
+	top: 110px;
+
+}
+
+
+
+
+
+
+
