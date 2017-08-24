@@ -49,7 +49,8 @@ footer {
 	height: 150px;
 	clear: both;
 	width: 100%;
-	margin: auto;
+	margin-top: 100px;
+
 	border-top: 5px solid #36375C;;
 
 
@@ -195,10 +196,10 @@ input[type=text]:focus {
 #portfolioBox h4 {
 
 	background-color: #eee;
-	padding: 5px 15px 5px 15px;
+	padding: 25px 15px 5px 15px;
 	text-align: center;
-	width: 225px;
-	height: 45px;
+	width: 195px;
+	height: 30px;
 	float: left;
 	clear: both;
 	z-index: 1;
@@ -227,6 +228,7 @@ input[type=text]:focus {
 	margin: 45px;
 	width: 225px;
 	height: 200px;
+
 
 	
 }
@@ -259,7 +261,7 @@ input[type=text]:focus {
 .portfolioImages h4 {
 	position: relative;
 	top: 110px;
-
+	padding-top: 20px;
 }
 
 
